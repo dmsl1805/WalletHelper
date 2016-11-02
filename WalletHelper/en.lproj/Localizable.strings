@@ -1,0 +1,17 @@
+
+"HISTORY" = "History";
+"EDIT" = "Edit";
+"SETTINGS" = "Settings";
+"PAYMENTS" = "Payments";
+"CHAT" = "Chat";
+
+"CASE_MONEY" = "How much money have you spent?";
+"CASE_PRODUCT" = "What products have you bought?";
+"CASE_CATEGORY" = "What category of products it is?";
+"CASE_PLACE" = "Where it was?";
+"CASE_CARD" = "Did you use credit/debit card? (yes/no)";
+"CASE_THANKS" = "Thank you! I saved all.";
+"CASE_ERROR" = "Sorry, I dont understand you 😥. Try again.";
+
+"ANSWER_YES" = "Yes";
+"ANSWER_NO" = "No";

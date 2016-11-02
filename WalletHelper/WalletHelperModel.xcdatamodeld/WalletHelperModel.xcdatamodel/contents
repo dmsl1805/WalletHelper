@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11224.2" systemVersion="15G31" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Entity" representedClassName="WSEntity" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Payment" representedClassName="WPPayment" parentEntity="Entity" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="moneyAmount" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="paymentType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PaymentCategory" inverseName="payments" inverseEntity="PaymentCategory" syncable="YES"/>
+    </entity>
+    <entity name="PaymentCategory" representedClassName="WPPaymentCategory" parentEntity="Entity" syncable="YES">
+        <attribute name="lastTransactionDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="payments" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Payment" inverseName="category" inverseEntity="Payment" syncable="YES"/>
+        <relationship name="place" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PaymentPlace" inverseName="categories" inverseEntity="PaymentPlace" syncable="YES"/>
+    </entity>
+    <entity name="PaymentPlace" representedClassName="WPPaymentPlace" parentEntity="Entity" syncable="YES">
+        <relationship name="categories" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PaymentCategory" inverseName="place" inverseEntity="PaymentCategory" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Entity" positionX="-279" positionY="-322" width="128" height="58"/>
+        <element name="Payment" positionX="-83" positionY="-196" width="128" height="103"/>
+        <element name="PaymentCategory" positionX="-279" positionY="-183" width="128" height="88"/>
+        <element name="PaymentPlace" positionX="-461" positionY="-183" width="128" height="58"/>
+    </elements>
+</model>

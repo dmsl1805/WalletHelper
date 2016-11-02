@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A31F8DB51D87D9A900F5016F /* ModelGenerator */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A31F8DB61D87D9A900F5016F /* Build configuration list for PBXAggregateTarget "ModelGenerator" */;
+			buildPhases = (
+				A31F8DB91D87D9F700F5016F /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = ModelGenerator;
+			productName = ModelGenerator;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		30C5FEF69DC72338AC80109F /* Pods_WalletHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC079C35CD925D9AE2458FDE /* Pods_WalletHelper.framework */; };
+		A31F8DB41D87D80300F5016F /* WalletHelperModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A31F8DB21D87D80300F5016F /* WalletHelperModel.xcdatamodeld */; };
+		A31F8DC91D87DA6800F5016F /* WPPayment.m in Sources */ = {isa = PBXBuildFile; fileRef = A31F8DBD1D87DA6700F5016F /* WPPayment.m */; };
+		A31F8DCA1D87DA6800F5016F /* WPPaymentCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A31F8DBF1D87DA6700F5016F /* WPPaymentCategory.m */; };
+		A31F8DCB1D87DA6800F5016F /* WPPaymentPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = A31F8DC11D87DA6700F5016F /* WPPaymentPlace.m */; };
+		A31F8DCC1D87DA6800F5016F /* _WPPayment.m in Sources */ = {isa = PBXBuildFile; fileRef = A31F8DC41D87DA6700F5016F /* _WPPayment.m */; };
+		A31F8DCD1D87DA6800F5016F /* _WPPaymentCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A31F8DC61D87DA6700F5016F /* _WPPaymentCategory.m */; };
+		A31F8DCE1D87DA6800F5016F /* _WPPaymentPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = A31F8DC81D87DA6700F5016F /* _WPPaymentPlace.m */; };
+		A31F8DD71D87DB5C00F5016F /* EntitiesSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31F8DD61D87DB5C00F5016F /* EntitiesSwift.swift */; };
+		A3393F691D8BD9DE0032EB9A /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3393F681D8BD9DE0032EB9A /* MessageModel.swift */; };
+		A3393F6B1D8BDC650032EB9A /* HistoryDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3393F6A1D8BDC650032EB9A /* HistoryDataSource.swift */; };
+		A3393F6E1D8BDC9E0032EB9A /* ChatDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3393F6D1D8BDC9E0032EB9A /* ChatDataSource.swift */; };
+		A3393F701D8BE8800032EB9A /* ChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3393F6F1D8BE8800032EB9A /* ChatCell.xib */; };
+		A3393F721D8C423C0032EB9A /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3393F711D8C423C0032EB9A /* ChatTableViewCell.swift */; };
+		A3393F741D8C57AE0032EB9A /* PaymentInfoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3393F731D8C57AE0032EB9A /* PaymentInfoDataSource.swift */; };
+		A3393F761D8C5D9D0032EB9A /* ChatMessagingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3393F751D8C5D9D0032EB9A /* ChatMessagingController.swift */; };
+		A3393F781D8C669B0032EB9A /* MessagesParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3393F771D8C669B0032EB9A /* MessagesParser.swift */; };
+		A34C40DF1D8B20690079E089 /* ChatTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C40DE1D8B20690079E089 /* ChatTextView.swift */; };
+		A37E80131D870E5B00F2436F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37E80121D870E5B00F2436F /* AppDelegate.swift */; };
+		A37E80151D870E5B00F2436F /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37E80141D870E5B00F2436F /* HistoryTableViewController.swift */; };
+		A37E80171D870E5B00F2436F /* HistoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37E80161D870E5B00F2436F /* HistoryDetailViewController.swift */; };
+		A37E801A1D870E5B00F2436F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37E80181D870E5B00F2436F /* Main.storyboard */; };
+		A37E801C1D870E5B00F2436F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A37E801B1D870E5B00F2436F /* Assets.xcassets */; };
+		A37E801F1D870E5B00F2436F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37E801D1D870E5B00F2436F /* LaunchScreen.storyboard */; };
+		A3C491151D886AE800D3DF80 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C491141D886AE800D3DF80 /* Extensions.swift */; };
+		A3C491191D88702400D3DF80 /* TableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C491181D88702400D3DF80 /* TableDataSource.swift */; };
+		A3CFFB5A1D8E97760087128B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CFFB591D8E97760087128B /* SettingsViewController.swift */; };
+		A3CFFB5F1D8EF8F70087128B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3CFFB611D8EF8F70087128B /* Localizable.strings */; };
+		A3D257BC1D88591B000D243E /* WSEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D257BB1D88591B000D243E /* WSEntity.m */; };
+		A3D257BF1D885924000D243E /* _WSEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D257BE1D885924000D243E /* _WSEntity.m */; };
+		A3DD10F31D87FA4E00FF923E /* ContextStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DD10F21D87FA4E00FF923E /* ContextStorage.swift */; };
+		A3DD10F61D87FA5F00FF923E /* WSDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DD10F51D87FA5F00FF923E /* WSDataModel.m */; };
+		A3F6F5EC1D87C8370085D2C1 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F6F5EB1D87C8370085D2C1 /* ChatViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		412450908DDFFAAA902D8FF5 /* Pods-WalletHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalletHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WalletHelper/Pods-WalletHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		7E322D2A36E4C9ACFA11C42C /* Pods-WalletHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalletHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-WalletHelper/Pods-WalletHelper.release.xcconfig"; sourceTree = "<group>"; };
+		A31F8DB31D87D80300F5016F /* WalletHelperModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WalletHelperModel.xcdatamodel; sourceTree = "<group>"; };
+		A31F8DBC1D87DA6700F5016F /* WPPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPPayment.h; sourceTree = "<group>"; };
+		A31F8DBD1D87DA6700F5016F /* WPPayment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPPayment.m; sourceTree = "<group>"; };
+		A31F8DBE1D87DA6700F5016F /* WPPaymentCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPPaymentCategory.h; sourceTree = "<group>"; };
+		A31F8DBF1D87DA6700F5016F /* WPPaymentCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPPaymentCategory.m; sourceTree = "<group>"; };
+		A31F8DC01D87DA6700F5016F /* WPPaymentPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPPaymentPlace.h; sourceTree = "<group>"; };
+		A31F8DC11D87DA6700F5016F /* WPPaymentPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPPaymentPlace.m; sourceTree = "<group>"; };
+		A31F8DC31D87DA6700F5016F /* _WPPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _WPPayment.h; sourceTree = "<group>"; };
+		A31F8DC41D87DA6700F5016F /* _WPPayment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _WPPayment.m; sourceTree = "<group>"; };
+		A31F8DC51D87DA6700F5016F /* _WPPaymentCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _WPPaymentCategory.h; sourceTree = "<group>"; };
+		A31F8DC61D87DA6700F5016F /* _WPPaymentCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _WPPaymentCategory.m; sourceTree = "<group>"; };
+		A31F8DC71D87DA6700F5016F /* _WPPaymentPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _WPPaymentPlace.h; sourceTree = "<group>"; };
+		A31F8DC81D87DA6700F5016F /* _WPPaymentPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _WPPaymentPlace.m; sourceTree = "<group>"; };
+		A31F8DD61D87DB5C00F5016F /* EntitiesSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntitiesSwift.swift; sourceTree = "<group>"; };
+		A3393F681D8BD9DE0032EB9A /* MessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		A3393F6A1D8BDC650032EB9A /* HistoryDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryDataSource.swift; sourceTree = "<group>"; };
+		A3393F6D1D8BDC9E0032EB9A /* ChatDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatDataSource.swift; sourceTree = "<group>"; };
+		A3393F6F1D8BE8800032EB9A /* ChatCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatCell.xib; sourceTree = "<group>"; };
+		A3393F711D8C423C0032EB9A /* ChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		A3393F731D8C57AE0032EB9A /* PaymentInfoDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentInfoDataSource.swift; sourceTree = "<group>"; };
+		A3393F751D8C5D9D0032EB9A /* ChatMessagingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessagingController.swift; sourceTree = "<group>"; };
+		A3393F771D8C669B0032EB9A /* MessagesParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesParser.swift; sourceTree = "<group>"; };
+		A34C40DE1D8B20690079E089 /* ChatTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTextView.swift; sourceTree = "<group>"; };
+		A37E800F1D870E5B00F2436F /* WalletHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalletHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37E80121D870E5B00F2436F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A37E80141D870E5B00F2436F /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		A37E80161D870E5B00F2436F /* HistoryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDetailViewController.swift; sourceTree = "<group>"; };
+		A37E80191D870E5B00F2436F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A37E801B1D870E5B00F2436F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A37E801E1D870E5B00F2436F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A37E80201D870E5B00F2436F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3C491141D886AE800D3DF80 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A3C491181D88702400D3DF80 /* TableDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableDataSource.swift; sourceTree = "<group>"; };
+		A3CFFB591D8E97760087128B /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A3CFFB5E1D8EF87C0087128B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A3CFFB601D8EF8F70087128B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A3CFFB621D8EF8FA0087128B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A3CFFB641D8EFF060087128B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A3D257BA1D88591B000D243E /* WSEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSEntity.h; sourceTree = "<group>"; };
+		A3D257BB1D88591B000D243E /* WSEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSEntity.m; sourceTree = "<group>"; };
+		A3D257BD1D885924000D243E /* _WSEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _WSEntity.h; sourceTree = "<group>"; };
+		A3D257BE1D885924000D243E /* _WSEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _WSEntity.m; sourceTree = "<group>"; };
+		A3DD10F21D87FA4E00FF923E /* ContextStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContextStorage.swift; sourceTree = "<group>"; };
+		A3DD10F41D87FA5F00FF923E /* WSDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDataModel.h; sourceTree = "<group>"; };
+		A3DD10F51D87FA5F00FF923E /* WSDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDataModel.m; sourceTree = "<group>"; };
+		A3F6F5EB1D87C8370085D2C1 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		A3F6F5ED1D87C87D0085D2C1 /* WalletHelper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WalletHelper-Bridging-Header.h"; sourceTree = "<group>"; };
+		EC079C35CD925D9AE2458FDE /* Pods_WalletHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WalletHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A37E800C1D870E5B00F2436F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C5FEF69DC72338AC80109F /* Pods_WalletHelper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		713BD4FB46E7B42C6E8ADD47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				412450908DDFFAAA902D8FF5 /* Pods-WalletHelper.debug.xcconfig */,
+				7E322D2A36E4C9ACFA11C42C /* Pods-WalletHelper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A31F8DBA1D87DA6700F5016F /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				A31F8DD51D87DAF500F5016F /* Entites-Swift */,
+				A31F8DBB1D87DA6700F5016F /* Entities */,
+				A31F8DC21D87DA6700F5016F /* GeneratedEntities */,
+				A31F8DB21D87D80300F5016F /* WalletHelperModel.xcdatamodeld */,
+				A3DD10F21D87FA4E00FF923E /* ContextStorage.swift */,
+				A3DD10F41D87FA5F00FF923E /* WSDataModel.h */,
+				A3DD10F51D87FA5F00FF923E /* WSDataModel.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		A31F8DBB1D87DA6700F5016F /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				A3D257BA1D88591B000D243E /* WSEntity.h */,
+				A3D257BB1D88591B000D243E /* WSEntity.m */,
+				A31F8DBC1D87DA6700F5016F /* WPPayment.h */,
+				A31F8DBD1D87DA6700F5016F /* WPPayment.m */,
+				A31F8DBE1D87DA6700F5016F /* WPPaymentCategory.h */,
+				A31F8DBF1D87DA6700F5016F /* WPPaymentCategory.m */,
+				A31F8DC01D87DA6700F5016F /* WPPaymentPlace.h */,
+				A31F8DC11D87DA6700F5016F /* WPPaymentPlace.m */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		A31F8DC21D87DA6700F5016F /* GeneratedEntities */ = {
+			isa = PBXGroup;
+			children = (
+				A3D257BD1D885924000D243E /* _WSEntity.h */,
+				A3D257BE1D885924000D243E /* _WSEntity.m */,
+				A31F8DC31D87DA6700F5016F /* _WPPayment.h */,
+				A31F8DC41D87DA6700F5016F /* _WPPayment.m */,
+				A31F8DC51D87DA6700F5016F /* _WPPaymentCategory.h */,
+				A31F8DC61D87DA6700F5016F /* _WPPaymentCategory.m */,
+				A31F8DC71D87DA6700F5016F /* _WPPaymentPlace.h */,
+				A31F8DC81D87DA6700F5016F /* _WPPaymentPlace.m */,
+			);
+			path = GeneratedEntities;
+			sourceTree = "<group>";
+		};
+		A31F8DD51D87DAF500F5016F /* Entites-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				A31F8DD61D87DB5C00F5016F /* EntitiesSwift.swift */,
+			);
+			name = "Entites-Swift";
+			sourceTree = "<group>";
+		};
+		A37E80061D870E5B00F2436F = {
+			isa = PBXGroup;
+			children = (
+				A37E80111D870E5B00F2436F /* WalletHelper */,
+				A37E80101D870E5B00F2436F /* Products */,
+				713BD4FB46E7B42C6E8ADD47 /* Pods */,
+				BD1900CCE687EB65917297CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A37E80101D870E5B00F2436F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A37E800F1D870E5B00F2436F /* WalletHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A37E80111D870E5B00F2436F /* WalletHelper */ = {
+			isa = PBXGroup;
+			children = (
+				A3F6F5ED1D87C87D0085D2C1 /* WalletHelper-Bridging-Header.h */,
+				A3C491131D886AC800D3DF80 /* Categories/Extensions */,
+				A3C4910F1D88696200D3DF80 /* Data source */,
+				A37E80181D870E5B00F2436F /* Main.storyboard */,
+				A3CFFB581D8E975F0087128B /* Settings */,
+				A3DD10F11D87F0F600FF923E /* Chat */,
+				A3DD10F01D87F0ED00FF923E /* History */,
+				A3CFFB5D1D8EF65E0087128B /* Model */,
+				A3DD10EF1D87F0D300FF923E /* Supporting files */,
+			);
+			path = WalletHelper;
+			sourceTree = "<group>";
+		};
+		A3C4910F1D88696200D3DF80 /* Data source */ = {
+			isa = PBXGroup;
+			children = (
+				A3C491181D88702400D3DF80 /* TableDataSource.swift */,
+				A3393F6A1D8BDC650032EB9A /* HistoryDataSource.swift */,
+				A3393F6D1D8BDC9E0032EB9A /* ChatDataSource.swift */,
+				A3393F731D8C57AE0032EB9A /* PaymentInfoDataSource.swift */,
+			);
+			name = "Data source";
+			sourceTree = "<group>";
+		};
+		A3C491131D886AC800D3DF80 /* Categories/Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A3C491141D886AE800D3DF80 /* Extensions.swift */,
+			);
+			name = Categories/Extensions;
+			sourceTree = "<group>";
+		};
+		A3CFFB581D8E975F0087128B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A3CFFB591D8E97760087128B /* SettingsViewController.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		A3CFFB5D1D8EF65E0087128B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A3393F681D8BD9DE0032EB9A /* MessageModel.swift */,
+				A31F8DBA1D87DA6700F5016F /* CoreData */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A3DD10EF1D87F0D300FF923E /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				A37E801B1D870E5B00F2436F /* Assets.xcassets */,
+				A37E801D1D870E5B00F2436F /* LaunchScreen.storyboard */,
+				A37E80201D870E5B00F2436F /* Info.plist */,
+				A37E80121D870E5B00F2436F /* AppDelegate.swift */,
+				A3CFFB611D8EF8F70087128B /* Localizable.strings */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		A3DD10F01D87F0ED00FF923E /* History */ = {
+			isa = PBXGroup;
+			children = (
+				A37E80141D870E5B00F2436F /* HistoryTableViewController.swift */,
+				A37E80161D870E5B00F2436F /* HistoryDetailViewController.swift */,
+			);
+			name = History;
+			sourceTree = "<group>";
+		};
+		A3DD10F11D87F0F600FF923E /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				A3F6F5EB1D87C8370085D2C1 /* ChatViewController.swift */,
+				A34C40DE1D8B20690079E089 /* ChatTextView.swift */,
+				A3393F6F1D8BE8800032EB9A /* ChatCell.xib */,
+				A3393F711D8C423C0032EB9A /* ChatTableViewCell.swift */,
+				A3393F751D8C5D9D0032EB9A /* ChatMessagingController.swift */,
+				A3393F771D8C669B0032EB9A /* MessagesParser.swift */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		BD1900CCE687EB65917297CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC079C35CD925D9AE2458FDE /* Pods_WalletHelper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A37E800E1D870E5B00F2436F /* WalletHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A37E80231D870E5B00F2436F /* Build configuration list for PBXNativeTarget "WalletHelper" */;
+			buildPhases = (
+				61A983C63C4AB6E632CDD1A4 /* 📦 Check Pods Manifest.lock */,
+				342E7F6B993FACAE42EAE231 /* [CP] Check Pods Manifest.lock */,
+				A37E800B1D870E5B00F2436F /* Sources */,
+				A37E800C1D870E5B00F2436F /* Frameworks */,
+				A37E800D1D870E5B00F2436F /* Resources */,
+				ED42E4BCEF7127845720AF2C /* [CP] Embed Pods Frameworks */,
+				2FD6F479C0E80E3520E8A673 /* [CP] Copy Pods Resources */,
+				01F08C5C94E7CE31246212E9 /* 📦 Embed Pods Frameworks */,
+				FEEB42E20772F65DCF611842 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WalletHelper;
+			productName = WalletHelper;
+			productReference = A37E800F1D870E5B00F2436F /* WalletHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A37E80071D870E5B00F2436F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				TargetAttributes = {
+					A31F8DB51D87D9A900F5016F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					A37E800E1D870E5B00F2436F = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A37E800A1D870E5B00F2436F /* Build configuration list for PBXProject "WalletHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = A37E80061D870E5B00F2436F;
+			productRefGroup = A37E80101D870E5B00F2436F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A37E800E1D870E5B00F2436F /* WalletHelper */,
+				A31F8DB51D87D9A900F5016F /* ModelGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A37E800D1D870E5B00F2436F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37E801F1D870E5B00F2436F /* LaunchScreen.storyboard in Resources */,
+				A3393F701D8BE8800032EB9A /* ChatCell.xib in Resources */,
+				A37E801C1D870E5B00F2436F /* Assets.xcassets in Resources */,
+				A3CFFB5F1D8EF8F70087128B /* Localizable.strings in Resources */,
+				A37E801A1D870E5B00F2436F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01F08C5C94E7CE31246212E9 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WalletHelper/Pods-WalletHelper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FD6F479C0E80E3520E8A673 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WalletHelper/Pods-WalletHelper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		342E7F6B993FACAE42EAE231 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		61A983C63C4AB6E632CDD1A4 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A31F8DB91D87D9F700F5016F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "HUMAN_DIR=\"${PROJECT_DIR}/WalletHelper/CoreData/Entities\"\nMACHINE_DIR=\"${PROJECT_DIR}/WalletHelper/CoreData/GeneratedEntities\"\n\nmogenerator --v2 --model WalletHelper/WalletHelperModel.xcdatamodeld --machine-dir \"$MACHINE_DIR/\" --human-dir \"$HUMAN_DIR/\"";
+		};
+		ED42E4BCEF7127845720AF2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WalletHelper/Pods-WalletHelper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEEB42E20772F65DCF611842 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WalletHelper/Pods-WalletHelper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A37E800B1D870E5B00F2436F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34C40DF1D8B20690079E089 /* ChatTextView.swift in Sources */,
+				A31F8DCA1D87DA6800F5016F /* WPPaymentCategory.m in Sources */,
+				A3C491151D886AE800D3DF80 /* Extensions.swift in Sources */,
+				A31F8DCD1D87DA6800F5016F /* _WPPaymentCategory.m in Sources */,
+				A37E80171D870E5B00F2436F /* HistoryDetailViewController.swift in Sources */,
+				A31F8DD71D87DB5C00F5016F /* EntitiesSwift.swift in Sources */,
+				A3393F6B1D8BDC650032EB9A /* HistoryDataSource.swift in Sources */,
+				A3DD10F31D87FA4E00FF923E /* ContextStorage.swift in Sources */,
+				A3393F721D8C423C0032EB9A /* ChatTableViewCell.swift in Sources */,
+				A31F8DCE1D87DA6800F5016F /* _WPPaymentPlace.m in Sources */,
+				A3393F781D8C669B0032EB9A /* MessagesParser.swift in Sources */,
+				A31F8DC91D87DA6800F5016F /* WPPayment.m in Sources */,
+				A3393F741D8C57AE0032EB9A /* PaymentInfoDataSource.swift in Sources */,
+				A37E80151D870E5B00F2436F /* HistoryTableViewController.swift in Sources */,
+				A3F6F5EC1D87C8370085D2C1 /* ChatViewController.swift in Sources */,
+				A31F8DCB1D87DA6800F5016F /* WPPaymentPlace.m in Sources */,
+				A3DD10F61D87FA5F00FF923E /* WSDataModel.m in Sources */,
+				A31F8DB41D87D80300F5016F /* WalletHelperModel.xcdatamodeld in Sources */,
+				A3393F761D8C5D9D0032EB9A /* ChatMessagingController.swift in Sources */,
+				A3D257BF1D885924000D243E /* _WSEntity.m in Sources */,
+				A3393F6E1D8BDC9E0032EB9A /* ChatDataSource.swift in Sources */,
+				A3393F691D8BD9DE0032EB9A /* MessageModel.swift in Sources */,
+				A37E80131D870E5B00F2436F /* AppDelegate.swift in Sources */,
+				A3D257BC1D88591B000D243E /* WSEntity.m in Sources */,
+				A3C491191D88702400D3DF80 /* TableDataSource.swift in Sources */,
+				A31F8DCC1D87DA6800F5016F /* _WPPayment.m in Sources */,
+				A3CFFB5A1D8E97760087128B /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A37E80181D870E5B00F2436F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A37E80191D870E5B00F2436F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A37E801D1D870E5B00F2436F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A37E801E1D870E5B00F2436F /* Base */,
+				A3CFFB5E1D8EF87C0087128B /* ru */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A3CFFB611D8EF8F70087128B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3CFFB601D8EF8F70087128B /* Base */,
+				A3CFFB621D8EF8FA0087128B /* en */,
+				A3CFFB641D8EFF060087128B /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A31F8DB71D87D9A900F5016F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A31F8DB81D87D9A900F5016F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A37E80211D870E5B00F2436F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A37E80221D870E5B00F2436F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A37E80241D870E5B00F2436F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 412450908DDFFAAA902D8FF5 /* Pods-WalletHelper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = WalletHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.product.WalletHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WalletHelper/WalletHelper-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A37E80251D870E5B00F2436F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E322D2A36E4C9ACFA11C42C /* Pods-WalletHelper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = WalletHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.product.WalletHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WalletHelper/WalletHelper-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A31F8DB61D87D9A900F5016F /* Build configuration list for PBXAggregateTarget "ModelGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A31F8DB71D87D9A900F5016F /* Debug */,
+				A31F8DB81D87D9A900F5016F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A37E800A1D870E5B00F2436F /* Build configuration list for PBXProject "WalletHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37E80211D870E5B00F2436F /* Debug */,
+				A37E80221D870E5B00F2436F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A37E80231D870E5B00F2436F /* Build configuration list for PBXNativeTarget "WalletHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37E80241D870E5B00F2436F /* Debug */,
+				A37E80251D870E5B00F2436F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A31F8DB21D87D80300F5016F /* WalletHelperModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A31F8DB31D87D80300F5016F /* WalletHelperModel.xcdatamodel */,
+			);
+			currentVersion = A31F8DB31D87D80300F5016F /* WalletHelperModel.xcdatamodel */;
+			name = WalletHelperModel.xcdatamodeld;
+			path = ../WalletHelperModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A37E80071D870E5B00F2436F /* Project object */;
+}
